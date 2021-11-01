@@ -1,0 +1,15 @@
+.Preloader{
+  background-color: #26263B;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+  transition: all 0. ease-out;
+}
+
+img{
+  max-width: 10vw;
+  margin: 2rem 0;
+}
