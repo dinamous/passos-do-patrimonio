@@ -1,11 +1,12 @@
-import Mapa from '../Mapa';
-import './style.css';
+import Mapa from "../Mapa";
+import SideMenu from "../SideMenu";
+import "./style.css";
 
 function Main() {
   return (
     <div className="Main">
-      <Mapa/>
-     
+      <SideMenu />
+      <Mapa />
     </div>
   );
 }
