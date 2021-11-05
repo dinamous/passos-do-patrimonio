@@ -4,8 +4,8 @@
     "local":"Capela Nossa Senhora da Penha",
     "endereco":"Travessa Joaquim Lopes, s/nº, Bairro Penha",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":-20.715700,
+      "long":-46.625920
     },
     "descricao":"",
     "fotos":[]
@@ -15,8 +15,8 @@
     "local":"Sino centenário da Capela de Nossa Senhora da Penha",
     "endereco":"Travessa Joaquim Lopes, s/nº, Bairro Penha",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":-20.71564229715798,
+      "long":-46.62622454392186
     },
     "descricao":"",
     "fotos":[]
@@ -25,8 +25,8 @@
     "local":"Parque Municipal Doutor Emílio Piantino",
     "endereco":"Rua New York, S/Nº, Bairro Jardim Eldorado",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":-20.733720,
+      "long":-46.620280
     },
     "descricao":"",
     "fotos":[]
@@ -35,8 +35,8 @@
     "local":"Túmulo número 1",
     "endereco":"Cemitério Municipal de Passos, Avenida JK, nº 633",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":-20.7263602,
+      "long":-46.600214
     },
     "descricao":"",
     "fotos":[]
@@ -45,8 +45,8 @@
     "local":"Árvore de Santa Bárbara",
     "endereco":"Praça da Saudade, s/nº",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":20.7242788,
+      "long":-46.6021073
     },
     "descricao":"",
     "fotos":[]
@@ -55,8 +55,8 @@
     "local":"Acervo Artístico Professor Wagner de Castro",
     "endereco":" Casa da Cultura, Praça Geraldo da Silva Maia, S/Nº, Centro",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":-20.7216622,
+      "long":-46.6091406
     },
     "descricao":"",
     "fotos":[]
@@ -65,8 +65,8 @@
     "local":"Praça Geraldo da Silva Maia",
     "endereco":"Praça Geraldo da Silva Maia, S/Nº, Centro",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":-20.721991295707614, 
+      "long":-46.6090174472944
     },
     "descricao":"",
     "fotos":[]
@@ -75,8 +75,8 @@
     "local":"Fonte Luminosa da Praça Geraldo da Silva Maia",
     "endereco":"Praça Geraldo da Silva Maia, S/Nº, Centro.",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":-20.7218538,
+      "long":-46.609285
     },
     "descricao":"",
     "fotos":[]
@@ -85,8 +85,8 @@
     "local":"Escola Municipal Professora Francina de Andrade",
     "endereco":"Rua Coronel Neca Medeiros, nº 181, Centro",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":-20.720138688576203, 
+      "long":-46.61079863372371
     },
     "descricao":"",
     "fotos":[]
@@ -96,8 +96,8 @@
     "local":"Fachada da Santa Casa de Misericórdia de Passos",
     "endereco":"Rua Santa Casa, nº 164, Centro",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":-20.7134797,
+      "long":-46.6131078
     },
     "descricao":"",
     "fotos":[]
@@ -108,8 +108,8 @@
     "local":"Estação Cultura",
     "endereco":"Avenida da Estação, S/Nº, Bairro Coimbras",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":-20.708009,
+      "long":-46.6112991
     },
     "descricao":"",
     "fotos":[]
@@ -117,10 +117,10 @@
   {
     "id": 12,
     "local":"Banda do 12º Batalhão Militar de Passos",
-    "endereco":"-",
+    "endereco":" Evento - sem local",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":-20.7360466,
+      "long":-46.6063709
     },
     "descricao":"",
     "fotos":[]
@@ -131,8 +131,8 @@
     "local":"Palácio da Cultura de Passos",
     "endereco":"Praça Geraldo da Silva Maia, s/n, Centro",
     "GPS":{
-      "lat":11,
-      "long":11
+      "lat":-20.721415897391946, 
+      "long":-46.609436969997184
     },
     "descricao":"",
     "fotos":[]
@@ -147,16 +147,6 @@
     },
     "descricao":"",
     "fotos":[]
-  },
-  {
-    "id": 10,
-    "local":"Fachada da Santa Casa de Misericórdia de Passos",
-    "endereco":"Rua Santa Casa, nº 164, Centro",
-    "GPS":{
-      "lat":11,
-      "long":11
-    },
-    "descricao":"",
-    "fotos":[]
   }
+
 ]
