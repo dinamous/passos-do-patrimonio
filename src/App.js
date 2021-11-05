@@ -1,10 +1,14 @@
 import './App.css';
+import Main from './components/Main';
+import Mapa from './components/Mapa';
 import Preloader from './components/Preloader';
 
 function App() {
   return (
     <div className="App">
-     <Preloader/>
+     {/* <Preloader/> */}
+     {/* <Main/> */}
+     <Mapa/>
     </div>
   );
 }

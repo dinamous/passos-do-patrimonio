@@ -17,9 +17,7 @@ function Preloader() {
 
 
   return (
-    <>
-    {visivel ? 
-      <Container fluid>
+      <Container fluid className={!visivel?'fadeOut':null}>
         <Row>
           <Col>
           <div className="Preloader">
@@ -29,9 +27,6 @@ function Preloader() {
           </Col>
         </Row>
       </Container>
-    : null
-    }
-    </>
   );
 }
 
