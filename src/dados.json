@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "local":"Capela Nossa Senhora da Penha",
+    "endereco":"Travessa Joaquim Lopes, s/nº, Bairro Penha",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  },
+  {
+    "id": 2,
+    "local":"Sino centenário da Capela de Nossa Senhora da Penha",
+    "endereco":"Travessa Joaquim Lopes, s/nº, Bairro Penha",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  }, {
+    "id": 3,
+    "local":"Parque Municipal Doutor Emílio Piantino",
+    "endereco":"Rua New York, S/Nº, Bairro Jardim Eldorado",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  }, {
+    "id": 4,
+    "local":"Túmulo número 1",
+    "endereco":"Cemitério Municipal de Passos, Avenida JK, nº 633",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  }, {
+    "id": 5,
+    "local":"Árvore de Santa Bárbara",
+    "endereco":"Praça da Saudade, s/nº",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  }, {
+    "id": 6,
+    "local":"Acervo Artístico Professor Wagner de Castro",
+    "endereco":" Casa da Cultura, Praça Geraldo da Silva Maia, S/Nº, Centro",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  }, {
+    "id": 7,
+    "local":"Praça Geraldo da Silva Maia",
+    "endereco":"Praça Geraldo da Silva Maia, S/Nº, Centro",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  }, {
+    "id": 8,
+    "local":"Fonte Luminosa da Praça Geraldo da Silva Maia",
+    "endereco":"Praça Geraldo da Silva Maia, S/Nº, Centro.",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  }, {
+    "id": 9,
+    "local":"Escola Municipal Professora Francina de Andrade",
+    "endereco":"Rua Coronel Neca Medeiros, nº 181, Centro",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  },
+  {
+    "id": 10,
+    "local":"Fachada da Santa Casa de Misericórdia de Passos",
+    "endereco":"Rua Santa Casa, nº 164, Centro",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  }
+  ,
+  {
+    "id": 11,
+    "local":"Estação Cultura",
+    "endereco":"Avenida da Estação, S/Nº, Bairro Coimbras",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  },
+  {
+    "id": 12,
+    "local":"Banda do 12º Batalhão Militar de Passos",
+    "endereco":"-",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  }
+  ,
+  {
+    "id": 13,
+    "local":"Palácio da Cultura de Passos",
+    "endereco":"Praça Geraldo da Silva Maia, s/n, Centro",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  },
+  {
+    "id": 14,
+    "local":"Festa do Reinado e da Cavalhada",
+    "endereco":"-",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  },
+  {
+    "id": 10,
+    "local":"Fachada da Santa Casa de Misericórdia de Passos",
+    "endereco":"Rua Santa Casa, nº 164, Centro",
+    "GPS":{
+      "lat":11,
+      "long":11
+    },
+    "descricao":"",
+    "fotos":[]
+  }
+]

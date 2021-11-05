@@ -2,4 +2,28 @@
   width: 25vw;
   height: 100vh;
   background-color:#26263B;
+  font-family: 'Inter', sans-serif;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.SideMenu img{
+  width: 60%;
+  margin: 1.5rem;
+}
+
+.SideMenu .scroll{
+  overflow-y: scroll;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.SideMenu #titulo{
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 2rem;
+  font-weight: bold;
 }

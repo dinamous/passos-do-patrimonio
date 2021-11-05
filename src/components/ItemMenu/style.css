@@ -1,0 +1,36 @@
+.ItemMenu{
+  background-color: white;
+  height:auto;
+  width:90%;
+  border-radius:5px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: .45rem 0;
+}
+
+.ItemMenu .info{
+  width:80%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: .5rem 0;
+}
+
+.ItemMenu .info p{
+ padding: 0;
+ margin: 0.25rem;
+}
+
+.ItemMenu .info p.nome{
+  font-weight: bold;
+}
+
+.ItemMenu .info p.endereco{
+  opacity: 75%;
+}
+
+.ItemMenu img{
+  width: 20px;
+  margin: 0;
+}
