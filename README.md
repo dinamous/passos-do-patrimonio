@@ -1,70 +1,154 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./images/banner.png" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center"> 
+Text to Speech
+</h4>
 
-## Available Scripts
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+</p>
 
-In the project directory, you can run:
 
-### `yarn start`
+## 💻 Sobre o projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O projeto Text to Speech, se trata de um projeto de teste para a avaliação de uma Vaga Fullstack, para a D1 Smarkio.
+Consistindo na construção de uma arquitetura com Backend e Frontend, com a integração com um banco de dados e da utilização da API de text to speech da IBM Watson.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Funcionalidades
 
-### `yarn build`
+- O usuário pode inserir novos comentários
+- O Comentário é inserido no banco e a lista atualizada
+- O usuário pode ouvir o comentário listado ao clicar no ícone.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎨 Layout
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- 
+### Mobile
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="200px">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/detalhes-mobile.svg" width="200px">
+</p> -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Web
 
-## Learn More
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+ 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <img alt="Imagem do Projeto" title="Text to Speech" src="./images/layout.png" width="600px">
+</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Como executar o projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Este projeto é divido em duas partes:
+1. Backend (pasta backend) 
+2. Frontend (pasta frontend)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+💡O Frontend precisa que o Backend esteja sendo executado para funcionar.
 
-### Making a Progressive Web App
+### Pré-requisitos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### Advanced Configuration
+#### 🎲 Rodando o Backend (servidor)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
 
-### Deployment
+# Clone este repositório
+$ https://github.com/Dinamous/text-to-speech.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Acesse a pasta do projeto no terminal/cmd
+$ cd text-to-speech
 
-### `yarn build` fails to minify
+# Vá para a pasta backend
+$ cd backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Instale as dependências
+$ npm install
+
+# Altere as credenciais da sua máquina local no arquivo config/config.json, ex:
+"username": "root",
+"password": "root",
+
+# Crie um arquivo .env para suas credenciais para a API text-to-speech da IBM
+API_KEY = {sua key}
+API_URL = {sua URL}
+
+#Crie o banco de dados através do sequelize
+$ npx sequelize db:create
+
+# Execute a aplicação em modo de desenvolvimento
+$ node index
+
+# O servidor inciará na porta:5000 - acesse http://localhost:5000 
+
+```
+
+#### 🧭 Rodando a aplicação web (Frontend)
+
+```bash
+
+# Abra um novo terminal dentro do diretório atual
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd frontend
+
+# Instale as dependências
+$ yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Website**  ([React](https://reactjs.org/))
+-   **[Axios](https://github.com/axios/axios)**
+-   **[Howler](https://github.com/goldfire/howler.js/)**
+
+
+> Veja o arquivo  [package.json](https://github.com/Dinamous/text-to-speech/blob/master/frontend/package.json)
+
+#### **Server**  ([NodeJS](https://nodejs.org/en/) 
+-   **[Express](https://expressjs.com/)**
+-   **[Sequelize](https://github.com/sequelize/sequelize)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+-   **[MySql](https://github.com/mysqljs/mysql#readme3)**
+-   **[dotENV](https://github.com/motdotla/dotenv)**
+
+
+> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/server/package.json)
+
+
+## 💪 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`

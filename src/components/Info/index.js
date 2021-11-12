@@ -6,10 +6,10 @@ import Modal from "../Modal";
 
 function Info(props) {
   const { lugar } = React.useContext(LocalContext);
-  console.log(lugar.fotos);
+  console.log("lugar: "+lugar.local)
 
   return (
-    <div className="Info">
+    <div className={lugar.id ? "Info" : "none"}>
       {/* <div className="seta">
       <img src={arrow} alt="seta" />
     </div> */}
@@ -19,7 +19,7 @@ function Info(props) {
         {lugar.fotos ? (
           <div className="fotos">
             {lugar.fotos.map((foto) => (
-              <Modal foto={foto} />
+              <Modal foto={foto} key={foto}/>
             ))}
           </div>
         ) : null}

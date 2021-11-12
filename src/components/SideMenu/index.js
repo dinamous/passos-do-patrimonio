@@ -17,6 +17,7 @@ function SideMenu() {
         {locais.map((local) => (
           <ItemMenu
             key={local.id}
+            id={local.id}
             local={local.local}
             endereco={local.endereco}
             GPS={local.GPS}

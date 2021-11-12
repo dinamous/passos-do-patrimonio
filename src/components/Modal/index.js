@@ -1,31 +1,32 @@
+import React, { useState } from "react";
+import "./style.css";
 
-import React, { useState } from 'react';
-import './style.css';
-
-import { LocalContext } from '../../providers/Local';
+import { LocalContext } from "../../providers/Local";
 
 function Modal(props) {
-  const { setOrigem, setLugar,setZoom} = React.useContext(LocalContext);
-  const [modal, setModal] = useState(false)
+  const { setOrigem, setLugar, setZoom } = React.useContext(LocalContext);
+  const [modal, setModal] = useState(false);
 
-  function abreModal(){
-    setModal(!modal)
+  function abreModal() {
+    setModal(!modal);
   }
 
-  console.log(props.foto)
+  console.log(props.foto);
 
   return (
     <>
-    <div className="modal-img" onClick={abreModal}>
-      <img src={props.foto} alt="" />
-    </div>
-
-    {/* <div className="modal">
-      <div className="overlay" onClick={abreModal}></div>
-      <div className="modal-content">
+      <div className="modal-img" onClick={abreModal}>
         <img src={props.foto} alt="" />
       </div>
-    </div> */}
+
+      {modal ? (
+        <div className="modal">
+          <div className="overlay" onClick={abreModal}></div>
+          <div className="modal-content">
+            <img src={props.foto} alt="" />
+          </div>
+        </div>
+      ) : null}
     </>
   );
 }

@@ -1,12 +1,20 @@
 .Info{
-  background-color: white;
-  height:100vh;
-  width:30vw;
   position: absolute;
   display: flex;
   z-index: 100;
   top: 0;
   left: 70vw;
+  
+}
+
+
+.conteudo{
+  background-color: white;
+  height:100vh;
+  width:30vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   overflow-y: scroll;
   font-family: "Inter";
 }
@@ -42,11 +50,7 @@
   text-indent: 2rem;
 }
 
-.conteudo{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
+
 
 .fotos{
   width: 25vw;
@@ -59,4 +63,8 @@
 p{
   white-space: pre-line;
 
+}
+
+.none{
+  display: none;
 }
