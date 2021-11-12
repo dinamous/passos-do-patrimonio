@@ -7,10 +7,14 @@
   background : rgba(50,50,50,0.8)
 }
 
+
 .modal-img img{
- width: 20vw;
+ width: 12vw;
+ height: 8vw;
  border-radius: 5px;
+ object-fit: cover;
  transition: all .2s;
+
 }
 
 .modal-img img:hover{

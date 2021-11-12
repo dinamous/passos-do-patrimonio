@@ -27,6 +27,7 @@
   border-radius:5px;
   margin: 1rem .75rem;
   padding: .5rem;
+
 }
 
 .box .tit{
@@ -38,5 +39,24 @@
 .box .text{
   text-align: justify;
   opacity: .8;
+  text-indent: 2rem;
 }
 
+.conteudo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fotos{
+  width: 25vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+p{
+  white-space: pre-line;
+
+}

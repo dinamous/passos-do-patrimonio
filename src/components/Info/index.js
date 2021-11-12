@@ -16,10 +16,13 @@ function Info(props) {
       <div className="conteudo">
         <p className="titulo">{lugar.local}</p>
 
-        {lugar.fotos ?
-           lugar.fotos.map((foto) => <Modal foto={foto} />) 
-           
-           : null}
+        {lugar.fotos ? (
+          <div className="fotos">
+            {lugar.fotos.map((foto) => (
+              <Modal foto={foto} />
+            ))}
+          </div>
+        ) : null}
 
         <div className="box">
           <p className="tit">História do Local</p>
