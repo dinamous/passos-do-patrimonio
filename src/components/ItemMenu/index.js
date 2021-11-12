@@ -7,8 +7,9 @@ import { LocalContext } from '../../providers/Local';
 
 function ItemMenu(props) {
   const { setOrigem, setLugar,setZoom} = React.useContext(LocalContext);
-
+  
   function MoverMapa(local){
+    
     let coord = [local.GPS.lat,local.GPS.long]
     setOrigem(coord)
     setLugar(local)

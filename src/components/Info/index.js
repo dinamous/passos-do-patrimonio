@@ -1,11 +1,12 @@
 import React from "react";
 import "./style.css";
 import arrow from "../../images/arrow-right.png";
-
 import { LocalContext } from "../../providers/Local";
+import Modal from "../Modal";
 
 function Info(props) {
   const { lugar } = React.useContext(LocalContext);
+  console.log(lugar.fotos);
 
   return (
     <div className="Info">
@@ -14,6 +15,11 @@ function Info(props) {
     </div> */}
       <div className="conteudo">
         <p className="titulo">{lugar.local}</p>
+
+        {lugar.fotos ?
+           lugar.fotos.map((foto) => <Modal foto={foto} />) 
+           
+           : null}
 
         <div className="box">
           <p className="tit">História do Local</p>
