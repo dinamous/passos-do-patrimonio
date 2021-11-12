@@ -39,6 +39,7 @@
 }
 
 .modal-content img{
-  width: 400px;
+ 
+  height: 80vh;
   padding: 15px 50px;
 }
