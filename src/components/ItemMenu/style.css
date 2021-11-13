@@ -29,7 +29,7 @@
 }
 
 .ItemMenu .info p.endereco{
-  opacity: 75%;
+  color: rgb(77, 77, 77);
 }
 
 .ItemMenu img{
