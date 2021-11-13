@@ -17,10 +17,10 @@ function Preloader() {
     <div className={!visivel ? "Preloader fadeOut" : "Preloader"}>
       <img src={logo} alt="Logo da aplicação Passos do Patrimônio" />
       <img src={logoNome} alt="Passos do Patrimônio" />
-      <div className="linha">
+      {/* <div className="linha">
         <p>por Itamar Machado</p>
         <img src={passos} alt="Brasão da cidade de Passos" />
-      </div>
+      </div> */}
     </div>
   );
 }
