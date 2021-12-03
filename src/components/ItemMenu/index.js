@@ -6,7 +6,7 @@ import arrow from '../../images/arrow-right.png'
 import { LocalContext } from '../../providers/Local';
 
 function ItemMenu(props) {
-  const { setOrigem, setLugar,setZoom} = React.useContext(LocalContext);
+  const { setMenuOpen,setInfoOpen,setOrigem, setLugar,setZoom} = React.useContext(LocalContext);
   
   function MoverMapa(local){
     
@@ -14,6 +14,12 @@ function ItemMenu(props) {
     setOrigem(coord)
     setLugar(local)
     setZoom(17)
+    setInfoOpen(true)
+
+    if(window.innerWidth < 700){
+      setMenuOpen(false)
+    }
+
   }
 
   return (

@@ -1,18 +1,23 @@
 import React from "react";
 import "./style.css";
-import arrow from "../../images/arrow-right.png";
+import close from "../../images/x-circle.png";
 import { LocalContext } from "../../providers/Local";
 import Modal from "../Modal";
 
 function Info(props) {
-  const { lugar } = React.useContext(LocalContext);
+  const { lugar,infoOpen, setInfoOpen } = React.useContext(LocalContext);
+
+  function fechaInfo(){
+    setInfoOpen(!infoOpen);
+  }
 
   return (
-    <div className={lugar.id ? "Info" : "none"}>
-      {/* <div className="seta">
-      <img src={arrow} alt="seta" />
-    </div> */}
+    <div className={infoOpen ? "Info" : "Info Info-esconde"}>
+      
       <div className="conteudo">
+      <div className="close" onClick={()=> fechaInfo()}>
+        <img src={close} alt="fechar informações" />
+      </div>
         <p className="titulo">{lugar.local}</p>
 
         {lugar.fotos ? (

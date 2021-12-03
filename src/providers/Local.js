@@ -7,12 +7,14 @@ export const LocalProvider = (props) =>{
   const [lugar, setLugar] = useState({})
   const [zoom, setZoom] = useState(18)
   const [menuOpen, setMenuOpen] = useState(true)
+  const [infoOpen, setInfoOpen] = useState(false)
 
   return (
     <LocalContext.Provider value={{origem,setOrigem,
                                     lugar,setLugar,
                                     zoom,setZoom,
-                                    menuOpen,setMenuOpen}}>
+                                    menuOpen,setMenuOpen,
+                                    infoOpen, setInfoOpen}}>
       {props.children }
     </LocalContext.Provider>
   )

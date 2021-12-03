@@ -4,16 +4,20 @@ import ItemMenu from "../ItemMenu";
 import locais from "../../dados.json";
 import arrow from '../../images/arrow-white.png'
 
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { LocalContext } from "../../providers/Local";
 
 function SideMenu() {
 
-  const { menuOpen, setMenuOpen} = React.useContext(LocalContext);
+  const { setInfoOpen,menuOpen, setMenuOpen} = React.useContext(LocalContext);
 
   function AtivaMenu(){
     setMenuOpen(!menuOpen);
+
+    if(window.innerWidth < 700){
+      setInfoOpen(false)
+    }
   }
 
   return (
@@ -34,6 +38,7 @@ function SideMenu() {
             GPS={local.GPS}
             fotos={local.fotos}
             descricao={local.descricao}
+
           />
         ))}
       </div>
