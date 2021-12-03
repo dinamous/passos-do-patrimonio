@@ -6,6 +6,14 @@
   display:flex;
   align-items: center;
   flex-direction: column;
+  transition: left .3s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 200;
+}
+.SideMenu-esconde{
+  left: -25vw;
 }
 
 .SideMenu img{
@@ -26,4 +34,48 @@
   color: white;
   margin-top: 2rem;
   font-weight: bold;
+}
+
+.seta{
+  background-color:#26263B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  top: 50vh;
+ left: 25vw;
+ z-index: 150;
+ cursor: pointer;
+ transform: rotate(0deg);
+ transition: all .3s ease-in-out;
+}
+
+.seta img{
+  width: 2rem;
+  margin: .5rem;
+}
+
+.rotaciona{
+  transform: rotate(-180deg);
+}
+
+@media only screen and (max-width: 700px){
+  .SideMenu{
+    width: 60vw;
+  }
+
+  .SideMenu #titulo{
+    font-size: 1rem;
+    margin-top:0;
+  }
+
+  .seta{
+   left: 60vw;
+  }
+
+  .SideMenu-esconde{
+    left: -60vw;
+  }
 }

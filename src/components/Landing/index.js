@@ -17,7 +17,7 @@ function ItemMenu(props) {
       <div className="landing-main">
         <div className="left">
           <img src={nomeapp} alt="Passos do patrimônio" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut sodales sem, sed ultricies tortor. Donec iaculis, arcu a tempor condimentum, mauris risus dapibus ex, id porta nulla enim eget eros. Suspendisse interdum leo tempor tellus faucibus, non dignissim neque pretium. Fusce mollis luctus ipsum quis luctus. </p>
+          <p>A aplicação Passos do Patrimônio, foi desenvolvida com o propósito de possibilitar a divulgação dos locais e evento que foram tombados na Cidade de Passos - MG. A fim de promover o conhecimento e a história destes locais como um informativo para a população.</p>
           <Link to="/app">ACESSAR PLATAFORMA <img src={arrow} alt="" /></Link>
         </div>
         <div className="right">

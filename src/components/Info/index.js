@@ -6,7 +6,6 @@ import Modal from "../Modal";
 
 function Info(props) {
   const { lugar } = React.useContext(LocalContext);
-  console.log("lugar: "+lugar.local)
 
   return (
     <div className={lugar.id ? "Info" : "none"}>
