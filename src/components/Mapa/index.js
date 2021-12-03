@@ -10,7 +10,6 @@ import { LocalContext } from "../../providers/Local";
 function Mapa() {
   const { origem, zoom } = React.useContext(LocalContext);
 
-  console.log(origem);
 
   function GetIcon(_iconSize) {
     return L.icon({

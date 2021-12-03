@@ -11,8 +11,6 @@ function Modal(props) {
     setModal(!modal);
   }
 
-  console.log(props.foto);
-
   return (
     <>
       <div className="modal-img" onClick={abreModal}>
