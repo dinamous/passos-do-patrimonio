@@ -14,7 +14,7 @@
   transition: width 1s 1s, height 1s 1s, opacity .5s;
 }
 
-img{
+.Preloader img{
   max-width: 16vw;
   margin: 2rem 0;
 }
