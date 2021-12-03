@@ -4,12 +4,15 @@ import ItemMenu from "../ItemMenu";
 import locais from "../../dados.json";
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 function SideMenu() {
 
   return (
     <div className="SideMenu">
+      <Link to = "/" >
       <img src={LogoMenor} alt="Logo Passos do Patrimônio" />
+      </Link>
 
       <p id="titulo">Patrimônios Tombados</p>
 
